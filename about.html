@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cloud Games | About Us</title>
+  <link rel="stylesheet" type="text/css" href="styleabout.css">
+  <script src="cart.js" async></script>
+  <link rel="icon" href="images/nuuvem.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+
+<header>
+  <nav>
+    <div class="game-icon">
+      <img src="images/nuuvem.svg" alt="Game Control Icon">
+    </div>
+    <a href="cart.html">
+      <i class="fas fa-shopping-cart"></i>
+    </a>
+    <a href="index.html">Home</a>
+    <a class="active" href="about.html">About Us</a>
+  </nav>
+</header>
+  <body>
+    <main>
+      <section class="mission">
+        <h2>Our Mission</h2>
+        <p>At <span class="company-name">Cloud Games</span>, Our mission is to provide our customers with the best gaming experience possible.
+          <br> We strive to offer an extensive selection of <span class="company-name">high-quality game keys for different platforms</span>, reliable support, and a seamless online shopping experience.
+          <br> We are committed to creating an inclusive and welcoming community of gamers, and we value feedback and input from our customers.</p>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#273036" fill-opacity="1" d="M0,0L1440,64L1440,0L0,0Z"></path>
+      </svg>
+      <section id="about">
+        <h1>About Us</h1>
+        <div class="icons">
+          <div class="icon">
+            <img src="images/catalog.webp" alt="Catalog">
+            <h2>Big Catalog</h2>
+            <p>We offer a wide range of gaming products, including consoles, accessories, games, and more.</p>
+          </div>
+          <div class="icon">
+            <img src="images/support.png" alt="Support">
+            <h2>24/7 Support</h2>
+            <p>Our team is always available to answer your questions and provide assistance with your purchases.</p>
+          </div>
+          <div class="icon">
+            <img src="images/cloud.jpeg" alt="Global">
+            <h2>Global Delivery</h2>
+            <p>We ship our products worldwide, so you can enjoy gaming no matter where you are.</p>
+          </div>
+          <div class="icon">
+            <img src="images/secure.jpeg" alt="Secure">
+            <h2>Secure Payments</h2>
+            <p>We use the latest security measures to ensure that your payment information is always safe.</p>
+          </div>
+          <div class="icon">
+            <img src="images/quality.jpeg" alt="Quality">
+            <h2>Quality Products</h2>
+            <p>We only offer products from reputable brands that are known for their quality and reliability.</p>
+          </div>
+          <div class="icon">
+            <img src="images/always online.jpeg" alt="Online">
+            <h2>Always Online</h2>
+            <p>You can shop with us 24/7, no matter where you are in the world.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="fcontent">
+        <h3> Cloud Games </h3>
+        <p>Some more information about our Website, enjoy it.</p>
+        <ul class="socials">
+          <li><a href="https://www.instagram.com/"><img src="images/insta.png" heigth="33px" width="33px" alt="Windowsicon"></a></li>
+          <li><a href="https://www.facebook.com/"><img src="images/face.webp" heigth="33px" width="33px" alt="Windowsicon"></a></li>
+          <li><a href="https://www.youtube.com/"><img src="images/yt.svg" heigth="33px" width="33px" alt="Windowsicon"></a></li>
+          <li><a href="mailto:CloudGames@gmail.com">CloudGames@gmail.com</a></li>
+        </ul>
+        
+                        <button class="form" onclick="openForm()"><i class="fas fa-envelope"></i></button>
+                        <div class="layer"></div>
+                  <div class="form-popup" id="myForm">
+                    <form action="/contact" method="post" class="form-container">
+                      <h2>Contact Us</h2>
+                      <label for="name"><b>Name</b></label>
+                      <input type="text" placeholder="Enter Your Name" name="name" required>
+                      
+                      <label for="email"><b>Email</b></label>
+                      <input type="email" placeholder="Enter Your Email" name="email" required>
+                      
+                      <label for="message"><b>Message</b></label>
+                      <textarea placeholder="Enter Your Message" name="message" required></textarea>
+                      
+                      <button type="submit" class="btn">Submit</button>
+                      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </form>
+                  </div>
+      </div>
+      <div class="fbottom">
+      <p>copyrigth &copy; 2023 Cloud Games.</p>  
+    </div>
+</footer>
+</body>
+</html>
+
